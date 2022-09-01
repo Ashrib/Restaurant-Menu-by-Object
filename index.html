@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu List</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.573);
+        }
+        #menu-card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            width: 350px;
+            background-color: rgb(41, 41, 41);
+            border: 2px solid rgb(255, 142, 61);
+        }
+        #menu-head{
+            color: rgb(255, 142, 61);
+        }
+        #main-list, #dessert-list, #drink-list{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .list-names{
+            text-align: center;
+            width: 100%;
+            background-color: antiquewhite;
+            font-weight: 600;
+        }
+        ul{
+            margin: 0%;
+            padding: 0%;
+            font-style: italic;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu-card"></div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
